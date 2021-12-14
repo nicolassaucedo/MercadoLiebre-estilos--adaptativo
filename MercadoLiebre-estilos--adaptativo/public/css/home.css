@@ -1,0 +1,54 @@
+/* Banner */
+.banner {
+    display: none;
+ 
+}
+ 
+/*Main */
+main {
+    margin: 0 auto;
+    width: 90%;
+ 
+}
+ 
+
+ 
+/* CARD */
+.card {
+    margin-bottom: 10px;
+    background-color: white;
+ 
+}
+ 
+.card .card-content {
+    border-top: 1px solid var(--color-grisClaro);
+    display:block;
+    padding: 15px;
+    background-color: white;
+ 
+}
+ 
+.card .card-content h6 {
+    display: none;
+}
+ 
+
+ 
+ 
+.card .card-content .icono-truck i{   
+    border: 1px solid var(--color-verde);
+    border-radius: 50%;
+    padding: 5px; 
+    width: fit-content;
+    color: var(--color-verde);
+}
+
+@media screen and (min-width: 361px  ){
+    .card {
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+    }
+ 
+    .card .card-content h6 {
+        display: block;
+    } 
+}
